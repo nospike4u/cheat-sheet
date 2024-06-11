@@ -1,0 +1,183 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.app-heading__h1 {
+    color: #666;
+    font-size: 70px;
+}
+
+.app-heading__h2 {
+    font-size: 30px;
+}
+
+.intro {
+    letter-spacing: 0.1rem;
+}
+
+p {
+    padding: 0.9rem;
+    
+}
+
+
+h1, h2, h3 {
+    margin: 1rem;
+}
+
+.h2andp-div {
+    width: 70%;
+}
+
+.main-div {
+    display: flex;
+    align-items: start;
+    flex-wrap: wrap;
+}
+
+.sub-main-div {
+    display: flex;
+    align-items: start;
+    flex-wrap: wrap;
+    max-width: 75%;
+}
+
+.sub-main-div-2 {
+    display: flex;
+    align-items: start;
+    flex-wrap: wrap;
+    max-width: 25%;
+}
+
+.global-panel-container {
+    display: flex;
+    align-items: start;
+    flex-wrap: wrap;
+    background-color: #226078;
+    border-radius: 1rem;
+    height: auto;
+ margin: 0.5rem;
+
+}
+
+.h4-backend {
+    margin-left: 2rem;
+}
+
+.flex-panel-container {
+    display: flex;
+}
+
+.panel {
+    background-color: #fff;
+    margin: 1rem 1rem;
+    padding: 1.7rem;
+    border-radius: 1rem;
+    border: 3px solid rgba(170, 36, 36, 0.885);
+}
+
+.panel-flex {
+    border: 3px solid blue;
+  
+}
+
+.panel-flex-left {
+width: 65%;
+}
+.panel-flex-left-2 {
+    width: 25%;
+    }
+
+.panel-flex-right {
+ width: 35% ;
+}
+
+.panel-flex-right-2 {
+    width: 75% ;
+   }
+
+.panel-flex {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+}
+
+.no-panel-flex {
+   margin: 1rem;
+}
+
+.aside-global {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: ;
+    background-color: #226078;
+    margin: 0.5rem;
+    border-radius: 1rem;
+    padding-bottom: 1.2rem;
+}
+
+.aside-global div {
+    padding-bottom: 3.2rem;
+}
+
+.aside-p {
+    text-align: center;
+}
+
+hr {
+   max-width: 10rem;
+    margin-top: 2rem;
+}
+
+code {
+    color: rgb(222, 43, 85); 
+    
+}
+
+.code-bg {
+    background-color: #201919;
+    border-radius: 5px;
+    padding:1.5rem;
+    margin: 2rem;
+    display: block;
+}
+
+.research-p {
+    text-align: center;
+}
+
+.research-p-2 {
+    text-align: center;
+    font-size: 0.7rem;
+    color: #666;
+}
+
+.panel-img {
+    display: flex;
+    justify-content: center;
+}
+
+.sign-p {
+    color: #fff;
+    margin-left: 2rem;
+}
+
+.sign-p a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.version-p {
+    text-align: end;
+    margin-right: 2rem;
+    color: #fff;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+}

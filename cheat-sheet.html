@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cheat-sheet.css">
+    <title>Cheet Sheet for Bootcampers</title>
+</head>
+<body>
+    
+   
+    <h1 class="app-heading__h1">Application Setup Cheatsheet</h1>
+    <div class="h2andp-div">
+        <h2  class="app-heading__h2">How to make an App as a Bootcamper</h2>
+        <p class="intro">This sheet provides an overview of how to make an app as a Bootcamp. The <strong>Cheatsheet</strong> is a go to guide on topics designed to take you from beginning to end on the topics of: Conceptualising the idea, tools to use to help the design phase, structuring the project, tips on research, the development phase, testing and release and presenting. We know it is a lot but remember, this is the point of the cheatsheet; it is a go-to reminder to support your brain! </p>
+    </div>
+    <!--Technologies-->
+    <section>
+    <div class="main-div">
+        <div class="sub-main-div-2">
+        <aside class="aside-global">
+            <div class="panel">
+                <h1>Technologies</h1>
+                
+                    <a class="panel-img" href="https://git-scm.com/">
+                        <img  src="./img/git-icon-md-216364587.png" alt="git logo" style="width: 50px;"> 
+                        </a>
+                    <p class="aside-p">Git is a distributed version control system that tracks versions of files. It is often used to control source code by programmers collaboratively developing software.</p>
+                    <hr>
+                    <br>
+                     <a class="panel-img" href="https://github.com/">
+                    <img src="./img/github_black_logo_icon_.png" alt="github logo" style="width: 40px;">
+                    </a>
+                    <p class="aside-p">GitHub is a developer platform that allows developers to create, store, manage and share their code. It uses Git software, providing the distributed version control of Git plus access control, bug tracking, software feature requests, task management, continuous integration, and wikis for every project.</p>
+                    <hr>
+                    <br>
+                     <a class="panel-img" href="https://vitejs.dev/">
+                    <img src="./img/vite-logo-BFD4283991-seeklogo.com-2609597222.png" alt="vite logo" style="width: 40px;">
+                    </a>
+                    <p class="aside-p">Vite, French word for "quick", is a build tool that aims to provide a faster and leaner development experience for modern web projects. Use this to install applications like React, Tailwind, Express and many more that suits your project needs.</p>
+                    <hr>
+                    <br>
+                    <a class="panel-img" href="https://tailwindcss.com/">
+                   <img src="./img/tailwind-icon.png" alt="tailwind logo" style="width: 60px;">
+                   </a>
+                   <p class="aside-p"> MongoDB is a source-available, cross-platform, document-oriented database program. Classified as a NoSQL database product, MongoDB utilizes JSON-like documents with optional schemas.</p>
+                   <hr>
+
+                    <br>
+                    <a class="panel-img" href="https://getbootstrap.com/">
+                   <img src="./img/bootstrap-png-bootstrap.png" alt="bootstrap logo" style="width: 60px;">
+                   </a>
+                   <p class="aside-p"> MongoDB is a source-available, cross-platform, document-oriented database program. Classified as a NoSQL database product, MongoDB utilizes JSON-like documents with optional schemas.</p>
+                     <a class="panel-img" href="https://react.dev/">
+                    <img src="./img/React_logo_logotype_emblem-2514382006.png" alt="react logo" style="width: 40px;">
+                    </a>
+                    <hr>
+                    <br>
+                    <p class="aside-p">React (also known as React.js or ReactJS) is a free and open-source front-end JavaScript library for building user interfaces based on components.</p>
+                    <hr>
+                    <br>
+                     <a class="panel-img" href="https://nodejs.org/en">
+                    <img src="./img/nodejs-logo-png-javascript-node-js-nodejs-icon-download-png-512-4286103127.png" alt="nodeJS logo" style="width: 60px;">
+                    </a>
+                    <p class="aside-p">Node.js is a cross-platform, open-source JavaScript runtime environment that can run on Windows, Linux, Unix, macOS, and more. Node.js runs on the V8 JavaScript engine, and executes JavaScript code outside a web browser.</p>
+                    <hr>
+                    <br>
+                     <a class="panel-img" href="https://www.mongodb.com/">
+                    <img src="./img/mongodb_plain_wordmark_logo_icon_146423-3751681477.png" alt="mongoDB logo" style="width: 60px;">
+                    </a>
+                    <p class="aside-p"> MongoDB is a source-available, cross-platform, document-oriented database program. Classified as a NoSQL database product, MongoDB utilizes JSON-like documents with optional schemas.</p>
+                    <hr>
+
+                    <br>
+                     <a class="panel-img" href="https://www.sqlite.org/">
+                    <img src="./img/sqlite-logo.png" alt="SQLite logo" style="width: 60px;">
+                    </a>
+                    <p class="aside-p"> MongoDB is a source-available, cross-platform, document-oriented database program. Classified as a NoSQL database product, MongoDB utilizes JSON-like documents with optional schemas.</p>
+                    <hr>
+
+                    <br>
+                     <a class="panel-img" href="https://www.postgresql.org/">
+                    <img src="./img/postgresql-icon-1105440472.png" alt="" style="width: 60px;">
+                    </a>
+                    <p class="aside-p"> MongoDB is a source-available, cross-platform, document-oriented database program. Classified as a NoSQL database product, MongoDB utilizes JSON-like documents with optional schemas.</p>
+                
+                  
+            </div>
+        </aside>
+</div>
+<div class="sub-main-div">
+    <section class="global-panel-container">
+        <div class="flex-panel-container">
+            <div class="panel-flex-left">
+                <!--CONCEPT PHASE-->
+                <div class="panel">
+                    <h2>Concept Phase</h2>
+                    <p class="descriptive-text__p">Concept phase
+                        By following these steps during the concept phase, the team ensures a well-defined roadmap for the project and a solid foundation for the development phase.
+                        Define Project Goals and Requirements:
+    
+                        </p>
+                    <ul>
+                        <li><strong>Identify Objectives: </strong>Understand what the app aims to do.</li>
+                        <li><strong>Gather Requirements:</strong> Collect functional and non-functional requirements.</li>
+                        <li><strong>Brainstorm and Ideation:</strong>
+                            <li><strong>Collaborate on Ideas:</strong> Hold a brainstorming session to generate ideas and features that the app will contain.
+
+                        </li>
+                        
+                        <li><strong>Prioritize Features: </strong>Set a priority for the features (Major, minor and nice to have)
+                            <li><strong>Sketch Wireframes and Prototypes:</strong></li></li>
+                        <li><strong>Create Wireframes:</strong> Develop low-fidelity sketches of the app's layout and key screens.</li>
+                        <li><strong>Build Prototypes: </strong>Use tools like Figma or Excalidraw to create prototypes.
+                            Plan the technologies that you will use:</li>
+                        <li><strong>Choose Tech Stack:</strong> Decide on the technologies to be used, such as React, Vite, and any necessary libraries or frameworks.</li>
+                        <li><strong>Define Architecture:</strong> Outline the app’s architecture, including component structure, state management, and backend integration (if needed).
+                            Develop Project Plan and Timeline:</li>
+                        <li><strong>Assign Tasks:</strong> Distribute tasks among team members based on their skills and expertise. (Remember to always get out of your comfort zone and try new things. You are here to learn)</li>
+                        <li><strong>Set Up Collaboration Tools:</strong>
+                            Project Management: Use tools like Trello for task management.</li>
+                            <li><strong>Version Control:</strong> Set up a version control system like GitHub and establish branching strategies.</li>
+                            <li><strong>Communication:</strong> Use communication tools like Slack for effective team collaboration.</li>
+                    </ul>
+        
+                </div>
+                </div>
+                <div class="panel-flex-right">
+
+                    <div class="panel">
+                        <h2>Design Phase</h2>
+                        <p class="descriptive-text__p">
+                            The Design phase is all about building the framework. The development team is responsible for software engineering and outlines the software’s functionality and aesthetic. This ultimately results in the software product. The emphasis lies on outlining the software’s structure, navigation, user interfaces, and database design. This phase ensures that the software is user-friendly and performs its tasks efficiently. Use either of the following creative tools to start mapping out ideas for your project:</p>
+                        <ul>
+                            <a href="https://excalidraw.com/"><li>Excalidraw</li></a>
+                            <a href="https://www.uxpin.com/"><li>UX Pin</li></a>
+                            <a href="https://www.figma.com/"><li>Figma</li></a>
+                            <a href="https://webflow.com/blog/ui-ux-design-tools"><li>Others to choose from</li></a>
+                        </ul>
+                    </div> 
+                </div>
+            </div>
+
+            <section>
+                <section class="global-panel-container">
+                    
+                    <div class="panel">
+                        <h2>Structuring Phase</h2>
+                        <h3>Structuring Phase - Frontend</h3>
+                        <p class="descriptive-text__p"></p>
+                 <ol>
+                    <li>
+                        What is a frontend? The frontend is the part of a web application that users interact with directly. It includes everything users experience visually in their browser or application screen.
+                        
+                        Common terminologies in React:
+                        
+                        Components: Reusable building blocks for UI, written in JSX.
+                        State: Manages dynamic data within components.
+                        Props: Pass data between components.
+                        Hooks: Functions like useState and useEffect for managing state and side effects.
+                        
+                        Key Tasks in React:
+                        
+                        Rendering UI: Displaying content and structure.
+                        Handling User Input: Responding to clicks, typing, etc.
+                        Communicating with Backend: Fetching and sending data via APIs.
+                        
+                        
+                        </li>
+                    <li>Setting up your Frontend
+                        Creating a React Vite app repository when there is no repository yet
+                        - Open the terminal in vs code and navigate to the project folder.
+                        - Run the code "<code>npm create vite@latest</code>" to kickstart your application.
+                        - Give the name of your repository. Do so an press enter.
+                        - Give the name of your project. Just press enter so it uses the same name as in the repository.
+                        - Give the framework of your application. With the arrows up and down move to "React" and press enter.
+                        - Give the language you will use in the app. With the arrows up and down move to "javascript" and press enter.
+                        - Wait until your app finish the creation process. Once it is done, the terminal will give you the instructions on the code you need to run to start your app.
+                        - cd name-of-reacr-app-folder 
+                        - <code>npm install</code>-> this will take a few seconds, as is installing all the dependencies and the node modules necesary for your react app to work.
+                        - <code>npm run dev</code> -> do this once the <code>npm install</code> finishes to create a live server for your react app. The link to the live server will appear in the terminal, so to open it you can copy paste it into the browser, or clicking on the address while pressing ctrl.
+                        2.2 Creating a React Vite App inside the repository you are currently located at in the terminal
+                        - Open the terminal in vs code and navigate to the project folder.
+                        Create a directory with the mkdir command and name it as needed
+                        - cd in that directory.
+                        - Run the command "<code>npm create vite@latest</code>."
+                        - Give the name of your project. Just press enter so it uses the same name as in the repository.
+                        - Give the framework of your application. With the arrows up and down move to "React" and press enter.
+                        - Give the language you will use in the app. With the arrows up and down move to "javascript" and press enter.
+                        - Wait until your app finish the creation process. Once it is done, the terminal will give you the instructions on the code you need to run to start your app.
+                        - <code>npm install</code> -> this will take a few seconds, as is installing all the dependencies and the node modules necesary for your react app to work.
+                        - <code>npm run dev</code> -> do this once the <code>npm install</code> finishes to create a live server for your react app. The link to the live server will appear in the terminal, so to open it you can copy paste it into the browser, or clicking on the address while pressing ctrl.</li>
+                    <li>Install necessary packages
+                        This will be dependent on the necessity of the project, but remember to install the most common packages like React-Dom using the NPM commands.
+                        
+                        </li>
+                        <li>Test your project
+                            Test if everything was set up correctly using the NPM RUN DEV command.</li>
+                        <li>Best Practices (bonus) Write your code consistently and use comments to define well the areas in which you are currently working.</li>
+                 </ol>
+                        </h3>
+                        <h3>Structuring Phase - GitHub</h3>
+                        <ul>
+                            <li>Create repository</li>
+                            <li>Invite team mates to be collborators</li>
+                            <li>Inform team to <code>git clone</code> the project to their local repository. If you are not the repository owner, then you will need to <code>git clone</code> the repository of the owner!</li>
+                            <li>Activate website from GitHub pages</li>
+                            <li>Remember to .ignore sensitive files or files you do not want git to track and be public on GitHub. Please see more on this in the Research and Development Phase.</li>
+                        </ul>
+                        <h3>Git Basic definitions</h3>
+                        <ul>
+                            <li>Local repo or repository: A local directory containing code and files for the project</li>
+                            <li>Remote repository: An online version of the local repository hosted on services like GitHub, GitLab, and BitBucket</li>
+                            <li>Cloning: The act of making a clone or copy of a repository in a new director.
+                            Commit: A snapshot of the project you can come back to</li>
+                            <li>Branch: A copy of the project used for working in an isolated environment without affecting the main project</li>
+                            <li><code>git merge</code>: The process of combining two branches together.</li>
+                            <li><code>.gitignore</code> file: A file that lists other files you want git not to track (e.g., large data folders, private info, and any local
+                                files that shouldn’t be seen by the public).</li>
+                            <li>Staging area: a cache that holds changes you want to commit next</li>
+                            <li><code>git stash</code>: another type of cache that holds unwanted changes you may want to come back later</li>
+                            <li>Commit ID or hash: a unique identifier for each commit, used for switching to different save points.</li>
+                            <li>HEAD (always capitalized letters): a reference name for the latest commit, to save you having to type Commit IDs.
+                                HEAD~n syntax is used to refer to older commits (e.g. HEAD~2 refers to the second-to-last commit).</li>
+                        </ul>
+                        <div class="">
+                            <h2>Structuring Phase</h2>
+                            <h3>Structuring Phase - Backend</h3>
+                                <ol>
+                                    <li>What is Backend?
+                                        Backend refers to the server-side portion of a web application.
+                                        It processes requests received from the client-side (frontend) and interacts with databases to generate results.
+                                        Caching</li>
+                                    <li>Key Components of Backend
+                                        .Web Server: Handles HTTP requests and serves static files (HTML, CSS, images, etc.).
+                                        .Application Server: Generates dynamic content and executes business logic. Examples: Flask, Django (Python), Express (Node.js).
+                                        .Database: Stores and manages data. MySQL, PostgreSQL, MongoDB (NoSQL).</li>
+                                    <li>Languages and Tools Used in Backend Development
+                                        .Languages: Python, JavaScript (Node.js), Java, Ruby, etc.
+                                        .Frameworks: Flask, Django (Python), Express (Node.js), Ruby on Rails (Ruby), etc.
+                                        .Database Tools: SQLAlchemy (Python), Sequelize
+                                        (Node.js), ActiveRecord (Ruby), etc.</li>
+                                    <li>Backend Development Process
+                                        .Requirements Analysis
+                                        .Design and Modeling
+                                        .Development
+                                        .Testing
+                                        .Deployment and Maintenance</li>
+                                    <li>Security Considerations in Backend Development
+                                        .Authentication and Authorization
+                                        .Data Protection
+                                        .Input Validation
+                                        .Security Patches and Updates</li>
+                                    <li>
+                                        Communication Between Backend and Frontend
+                                        Communication via APIs: RESTful API, GraphQL, etc.
+                                        Data Formats: JSON, XML, etc.</li>
+                                        <li>Scalability and Performance in Backend
+                                            Load Balancing, Caching.</li>
+                            </ol>
+                            <br>
+                            <h4 class="h4-backend">Useful Concepts to Remember:</h4>
+                            <div class="code-bg">
+                            <code>
+                                Variable Declarations:
+        let variable1 = 'value1';
+        const constant1 = 'value2';
+        
+        <br>
+        <br>
+        
+        Arrow Functions:
+        const add = (a, b) => {
+        return a + b;
+        };
+        
+        <br>
+        <br>
+        
+        Template Literals:
+        const name = 'John'; console.log(`Hello, ${name}!`);
+        
+        <br>
+        <br>
+        
+        Destructuring:
+        const person = { name: 'Alice', age: 30 }; const { name, age } = person; console.log(name); // Output: Aliceconsole.log(age); // Output: 30
+        
+        <br>
+        <br>
+        
+        Spread Syntax
+        const arr1 = [1, 2, 3];
+        const arr2 = [4, 5, 6];
+        const combinedArray = [...arr1, ...arr2];
+        console.log(combinedArray); // Output: [1, 2, 3, 4, 5, 6]
+        
+        <br>
+        <br>
+        
+        FunctionModules:s:
+        // math.js
+        export const add = (a, b) => a + b;
+        export const subtract = (a, b) => a - b;
+        // main.js
+        import { add, subtract } from './math.js';
+        console.log(add(5, 3)); // Output: 8
+        console.log(subtract(5, 3)); // Output: 2
+        
+        <br>
+        <br>
+        
+        fetch('https://api.example.com/data') .then(response => { if (!response.ok) { throw new Error('Network response was not ok'); } return response.json(); }) .then(data => { // Do something with the dataconsole.log(data); }) .catch(error => { console.error('There was a problem with the fetch operation:', error); });
+                            </code>
+                        </div>
+                        </div>
+                    </div>
+            </section>
+        </div>
+ 
+    
+
+    <section class="global-panel-container">
+        <div class="panel-flex-container">
+            <div class="panel-flex-full">
+            <div class="panel" >
+                <h2>Research & Development Phase</h2>
+                    <code class="code-bg">//Start coding!
+                    </code>
+                    <p class="research-p"><strong>Eat, Sleep, Code, Repeat.</strong></p>
+                        <p class="research-p">Joking aside, <a href="https://www.w3.org/standards/">here</a> are some useful tips for coding conventions to follow, reach out to tutors if stuck. Google is your friend, so ensure to leverage that, plus artificial intelligence.</p>
+                        <p class="research-p-2"><strong>Useful resources:</strong> MDN, W3Schools, Stack Overflow, Udemy, LinkedIn Learning... </p>
+            </div>
+
+        </div>
+        <!--Testing & Release Section-->
+        <section class="global-panel-container">
+            <div class="panel-flex-left-2">
+                <div class="panel">
+                    <h2>Testing & Release Phase</h2>
+                    <p class="descriptive-text-p"><strong>Remember to:</strong></p>
+                        <ul>
+                            <li>Inform team members when you are megring to main</li>
+                            <li>Not to change other team members code without consultation and confirmation</li>
+                            <li>Pull the latest changes to your local</li>
+                            <li>Debug using various tools and methods</li>
+                            <li><em>Communicate!</em></li>
+                        </ul>
+                   
+                </div>
+    
+            </div>
+            <div class="panel-flex-right-2">
+            <div class="panel">
+                    
+                    <h2>Presentation Phase</h2>
+                    <ol>
+                        <li>Introduction
+                            Keep It Short: Start with a brief introduction of your project.
+                            Team Introduction: Introduce all team members and their roles in the project.
+                        </li>
+                        <li>Project Overview
+                            High-Level Summary: Provide a high-level summary of the project. Mention the main features and functionalities.
+                            Technologies Used: Briefly mention that the project is built with React and any other key technologies.</li>
+                        <li>Task Allocation
+                            Splitting Tasks: Explain how the tasks were divided among team members. Highlight the areas of responsibility.
+                            Role-Specific Insights: Allow each team member to talk briefly about their part of the project and their contributions.</li>
+                        <li>Development Process
+                            Communication: Describe how you kept the communication flowing during the development process. Mention any tools (like Slack, <a href="https://trello.com/">Trello</a>, or GitHub) that you used.
+                            Challenges and Solutions: Briefly touch on any challenges faced and how you overcame them as a team.</li>
+                        <li>Project Demonstration
+                            Focus on Results: Emphasize showing the final results rather than delving into the code. Demonstrate the working features of the project (avoid showing incomplete parts, missing functionality and such).</li>
+                        <li>Conclusion
+                            Summary of Achievements: Summarize the key achievements of the project.
+                            Team Reflections: End with each team member sharing a quick reflection on what they learned and enjoyed about the project.</li>
+                        <li>Q&A Session
+                            Prepare for Questions: Be ready to answer questions from colleagues and teachers. Ensure each team member is prepared to discuss their specific contributions.</li>
+                        </ol>
+    
+                </p>
+            </div>
+        </div>
+        </section>
+        <section class="bottom">
+
+            <div>
+                <p class="sign-p">Cheatsheet by Clara, Daniele & <a href="https://github.com/nospike4u">Dominic</a></p>
+            </div>
+            <div>
+                <em><p class="version-p">version 1.0</p></em>
+            </div>
+        </section>
+       
+        
+    </section>
+
+</div>
+</div>
+
+</section>
+</body>
+</html>
